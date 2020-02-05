@@ -1,17 +1,23 @@
 * A simple Emacs package for listening music from netease cloud music randomly.
 
 You can try this package, if you want to listen some music whatever it is while working with Emacs. 
-You can choose nothing but listen or not listen. 
-This library was developed for listening music from Netease cloud randomly in Emacs.
+
+This library was developed for listening music from Netease cloud randomly in Emacs.You can choose nothing but listen or not listen. 
+
 The idea and API is inspired by <https://ziliao6.com/fm/>.
+
 The program is inspired by <https://github.com/nicehiro/netease-music>, and the code is modified from this project.  
 
+
 *** Installation
- 1.Install mplayer. The music is actually played by mplayer.
- 2.Dowload netease-music-random.el from github, then install the package.
+ 1. Install mplayer. The music is actually played by mplayer.
+ 2. Dowload netease-music-random.el from github, then install the package.
+
    Alt+x,   
+
    package-install-file: /YOUR-OWN-PATH/netease-music-random.el
- 3.Enjoy it.
-   + netease-music-play-song: Play a song randomly.
-   + netease-music-toggle: Pause or resume the current song.
-   + netease-music-play-next: Change another song.
+
+ 3. Enjoy it.
+    + netease-music-play-song: Play a song randomly.
+    + netease-music-toggle: Pause or resume the current song.
+    + netease-music-play-next: Change another song.
